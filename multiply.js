@@ -24,6 +24,7 @@ function multiplyNums() {
   } else {
     correctAnswers += 1
     result.innerHTML = "That is correct! Good job!<br><br>Your score of correct answers is = " + correctAnswers ;
+    document.getElementById("answer").value = "";
   }
 }
 

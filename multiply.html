@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MultiplyWithMe</title>
+  </head>
+  <body onload="displayNums()">
+    <div style="text-align:center;">
+      <h2>MULTIPLY AND ANSWER</h2>
+      <br /><br />
+      <p id="numbers"></p>
+      <p>
+        <input
+          type="number"
+          id="answer"
+          name="answer"
+          value="Enter your answer"
+        />
+      </p>
+      <p><input type="button" value="Check" onclick="multiplyNums()" /></p>
+      <p id="result"></p>
+      <p><input type="button" value="Multiply again" onclick="multiplyAgain()"></p>
+    </div>
+    <script src="multiply.js"></script>
+  </body>
+</html>
